@@ -9,4 +9,7 @@ WebDriver driver;
 
 	@FindBy(id = "login")
 	WebElement login;
+	
+	@FindBy(id = "username")
+	WebElement username;
 }
